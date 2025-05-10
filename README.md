@@ -1,5 +1,6 @@
 # Chocolate-Distribution-Problem
- public int findMinDiff(ArrayList<Integer> arr, int m) {
+class Solution {
+    public int findMinDiff(ArrayList<Integer> arr, int m) {
         // your code here
         if(arr.size() == 0){
             return 0;
@@ -14,3 +15,4 @@
         }
         return res;
     }
+}
